@@ -16,7 +16,7 @@ Este projeto Python utiliza o Selenium para automatizar o lançamento de horas e
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/projeto_folha_ponto.git
+   git clone https://github.com/wesleygurgel/pmdecision-automation.git
    ```
 
 2. **Crie um ambiente virtual:**
@@ -38,9 +38,8 @@ Este projeto Python utiliza o Selenium para automatizar o lançamento de horas e
    ```
 
 4. **Gere a chave de criptografia:**
-   * Execute o script `main.py` uma vez.
-   * Copie a chave de criptografia exibida no console e salve-a em um arquivo chamado `chave.key` na raiz do projeto.
-   * **Mantenha o arquivo `chave.key` em um local seguro e não o adicione ao controle de versão!**
+   * Execute o script `main.py` uma vez e a suas credenciais seram salvas de forma criptografada.
+   * **Mantenha os arquivos `credentials.bin` e `chave.key` em um local seguro e não o adicione ao controle de versão!**
 
 5. **Execute o script:**
 
@@ -55,7 +54,7 @@ Este projeto Python utiliza o Selenium para automatizar o lançamento de horas e
 
 ## Observações
 
-* **Adapte o código:** 
+* **Adapte o código:**
     * Certifique-se de que os seletores CSS e XPath em `login.py` e `navigation.py` correspondem aos elementos da sua página de login e lançamento de horas. 
     * Adapte a lógica em `ponto.py` para preencher os campos específicos da sua folha de ponto.
 * **Requisitos:**
@@ -64,8 +63,8 @@ Este projeto Python utiliza o Selenium para automatizar o lançamento de horas e
     * Bibliotecas listadas em `requirements.txt`
 * **Navegador:**
     * Certifique-se de ter o driver do seu navegador instalado e configurado corretamente (ChromeDriver, GeckoDriver, etc.).
-* **Responsabilidade:** 
-    * Use este script com responsabilidade e ética. 
+* **Responsabilidade:**
+    * Use este script com responsabilidade e ética.
     * Certifique-se de que o uso da automação está de acordo com as políticas da sua empresa.
 
 **Contribuições**
